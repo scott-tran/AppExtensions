@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4CFC70814F70C470077D135 /* NSNumber+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CFC70614F70C470077D135 /* NSNumber+Factory.h */; };
+		E4CFC70914F70C470077D135 /* NSNumber+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CFC70714F70C470077D135 /* NSNumber+Factory.m */; };
 		E4E0394314F5DB3A0094A836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E0394214F5DB3A0094A836 /* Foundation.framework */; };
 		E4E0395014F5DB970094A836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E0394F14F5DB970094A836 /* UIKit.framework */; };
 		E4E0395214F5DBEF0094A838 /* AETypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A837 /* AETypes.h */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4CFC70614F70C470077D135 /* NSNumber+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Factory.h"; sourceTree = "<group>"; };
+		E4CFC70714F70C470077D135 /* NSNumber+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Factory.m"; sourceTree = "<group>"; };
 		E4E0393F14F5DB3A0094A836 /* libAppExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E0394214F5DB3A0094A836 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E4E0394614F5DB3A0094A836 /* AppExtensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppExtensions-Prefix.pch"; path = "../AppExtensions-Prefix.pch"; sourceTree = "<group>"; };
@@ -43,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4CFC70414F70C1E0077D135 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				E4CFC70614F70C470077D135 /* NSNumber+Factory.h */,
+				E4CFC70714F70C470077D135 /* NSNumber+Factory.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
 		E4E0393414F5DB3A0094A836 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +88,7 @@
 			children = (
 				E4E0395214F5DBEF0094A842 /* AppExtensions.h */,
 				E4E0395214F5DBEF0094A837 /* AETypes.h */,
+				E4CFC70414F70C1E0077D135 /* NSNumber */,
 				E4E0395114F5DBDD0094A836 /* UIView */,
 				E4E0395214F5DBEF0094A83D /* UIControl */,
 			);
@@ -119,6 +133,7 @@
 				E4E0395214F5DBEF0094A83C /* UIView+Position.h in Headers */,
 				E4E0395214F5DBEF0094A841 /* UIControl+Blocks.h in Headers */,
 				E4E0395214F5DBEF0094A843 /* AppExtensions.h in Headers */,
+				E4CFC70814F70C470077D135 /* NSNumber+Factory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +190,7 @@
 			files = (
 				E4E0395214F5DBEF0094A83A /* UIView+Position.m in Sources */,
 				E4E0395214F5DBEF0094A83F /* UIControl+Blocks.m in Sources */,
+				E4CFC70914F70C470077D135 /* NSNumber+Factory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +242,11 @@
 		E4E0394D14F5DB3A0094A836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				DSTROOT = /tmp/AppExtensions.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppExtensions/AppExtensions-Prefix.pch";
+				GCC_PREFIX_HEADER = "AppExtensions-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -238,9 +256,11 @@
 		E4E0394E14F5DB3A0094A836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				DSTROOT = /tmp/AppExtensions.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppExtensions/AppExtensions-Prefix.pch";
+				GCC_PREFIX_HEADER = "AppExtensions-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -266,6 +286,7 @@
 				E4E0394E14F5DB3A0094A836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
