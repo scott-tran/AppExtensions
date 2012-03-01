@@ -21,6 +21,8 @@
 		E4E0395214F5DBEF0094A83F /* UIControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A83E /* UIControl+Blocks.m */; };
 		E4E0395214F5DBEF0094A841 /* UIControl+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A840 /* UIControl+Blocks.h */; };
 		E4E0395214F5DBEF0094A843 /* AppExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A842 /* AppExtensions.h */; };
+		E4E0395214F5DBEF0094A846 /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A845 /* UIImage+Resize.h */; };
+		E4E0395214F5DBEF0094A848 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A847 /* UIImage+Resize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		E4E0395214F5DBEF0094A83E /* UIControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Blocks.m"; sourceTree = "<group>"; };
 		E4E0395214F5DBEF0094A840 /* UIControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Blocks.h"; sourceTree = "<group>"; };
 		E4E0395214F5DBEF0094A842 /* AppExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppExtensions.h; sourceTree = "<group>"; };
+		E4E0395214F5DBEF0094A845 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		E4E0395214F5DBEF0094A847 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				E43C53DE14F80C9200A056C0 /* NSNumberFormatter */,
 				E4E0395214F5DBEF0094A83D /* UIControl */,
 				E4E0395114F5DBDD0094A836 /* UIView */,
+				E4E0395214F5DBEF0094A844 /* UIImage */,
 			);
 			path = AppExtensions;
 			sourceTree = "<group>";
@@ -150,6 +155,15 @@
 			path = UIControl;
 			sourceTree = "<group>";
 		};
+		E4E0395214F5DBEF0094A844 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				E4E0395214F5DBEF0094A847 /* UIImage+Resize.m */,
+				E4E0395214F5DBEF0094A845 /* UIImage+Resize.h */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -164,6 +178,7 @@
 				E4CFC70814F70C470077D135 /* NSNumber+Factory.h in Headers */,
 				E43C53D814F8067D00A056C0 /* NSArray+Functional.h in Headers */,
 				E43C53FC14F80ED200A056C0 /* NSNumberFormatter+Style.h in Headers */,
+				E4E0395214F5DBEF0094A846 /* UIImage+Resize.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +238,7 @@
 				E4CFC70914F70C470077D135 /* NSNumber+Factory.m in Sources */,
 				E43C53D914F8067D00A056C0 /* NSArray+Functional.m in Sources */,
 				E43C53FD14F80ED200A056C0 /* NSNumberFormatter+Style.m in Sources */,
+				E4E0395214F5DBEF0094A848 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

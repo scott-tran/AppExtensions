@@ -8,4 +8,6 @@
 
 #import "UIControl+Blocks.h"
 
+#import "UIImage+Resize.h"
+
 #import "UIView+Position.h"
