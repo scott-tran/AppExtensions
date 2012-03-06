@@ -6,6 +6,8 @@
 
 #import "NSNumberFormatter+Style.h"
 
+#import "UIColor+Factory.h"
+
 #import "UIControl+Blocks.h"
 
 #import "UIImage+Resize.h"
