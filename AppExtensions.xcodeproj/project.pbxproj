@@ -11,6 +11,9 @@
 		E43C53D914F8067D00A056C0 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = E43C53D714F8067D00A056C0 /* NSArray+Functional.m */; };
 		E43C53FC14F80ED200A056C0 /* NSNumberFormatter+Style.h in Headers */ = {isa = PBXBuildFile; fileRef = E43C53FA14F80ED200A056C0 /* NSNumberFormatter+Style.h */; };
 		E43C53FD14F80ED200A056C0 /* NSNumberFormatter+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = E43C53FB14F80ED200A056C0 /* NSNumberFormatter+Style.m */; };
+		E4ACE8D81508992400EB6FFF /* UIView+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = E4ACE8D61508992400EB6FFF /* UIView+Util.h */; };
+		E4ACE8D91508992400EB6FFF /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACE8D71508992400EB6FFF /* UIView+Util.m */; };
+		E4ACE8DC1508995700EB6FFF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ACE8DB1508995700EB6FFF /* QuartzCore.framework */; };
 		E4CFC70814F70C470077D135 /* NSNumber+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CFC70614F70C470077D135 /* NSNumber+Factory.h */; };
 		E4CFC70914F70C470077D135 /* NSNumber+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CFC70714F70C470077D135 /* NSNumber+Factory.m */; };
 		E4E0394314F5DB3A0094A836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E0394214F5DB3A0094A836 /* Foundation.framework */; };
@@ -32,6 +35,9 @@
 		E43C53D714F8067D00A056C0 /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Functional.m"; path = "NSArray/NSArray+Functional.m"; sourceTree = "<group>"; };
 		E43C53FA14F80ED200A056C0 /* NSNumberFormatter+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+Style.h"; sourceTree = "<group>"; };
 		E43C53FB14F80ED200A056C0 /* NSNumberFormatter+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+Style.m"; sourceTree = "<group>"; };
+		E4ACE8D61508992400EB6FFF /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		E4ACE8D71508992400EB6FFF /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		E4ACE8DB1508995700EB6FFF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E4CFC70614F70C470077D135 /* NSNumber+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Factory.h"; sourceTree = "<group>"; };
 		E4CFC70714F70C470077D135 /* NSNumber+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Factory.m"; sourceTree = "<group>"; };
 		E4E0393F14F5DB3A0094A836 /* libAppExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4ACE8DC1508995700EB6FFF /* QuartzCore.framework in Frameworks */,
 				E4E0395014F5DB970094A836 /* UIKit.framework in Frameworks */,
 				E4E0394314F5DB3A0094A836 /* Foundation.framework in Frameworks */,
 			);
@@ -111,6 +118,7 @@
 		E4E0394114F5DB3A0094A836 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4ACE8DB1508995700EB6FFF /* QuartzCore.framework */,
 				E4E0394F14F5DB970094A836 /* UIKit.framework */,
 				E4E0394214F5DB3A0094A836 /* Foundation.framework */,
 			);
@@ -145,6 +153,8 @@
 		E4E0395114F5DBDD0094A836 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				E4ACE8D61508992400EB6FFF /* UIView+Util.h */,
+				E4ACE8D71508992400EB6FFF /* UIView+Util.m */,
 				E4E0395214F5DBEF0094A83B /* UIView+Position.h */,
 				E4E0395214F5DBEF0094A839 /* UIView+Position.m */,
 			);
@@ -194,6 +204,7 @@
 				E43C53FC14F80ED200A056C0 /* NSNumberFormatter+Style.h in Headers */,
 				E4E0395214F5DBEF0094A846 /* UIImage+Resize.h in Headers */,
 				E4E0395214F5DBEF0094A84D /* UIColor+Factory.h in Headers */,
+				E4ACE8D81508992400EB6FFF /* UIView+Util.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +266,7 @@
 				E43C53FD14F80ED200A056C0 /* NSNumberFormatter+Style.m in Sources */,
 				E4E0395214F5DBEF0094A848 /* UIImage+Resize.m in Sources */,
 				E4E0395214F5DBEF0094A84B /* UIColor+Factory.m in Sources */,
+				E4ACE8D91508992400EB6FFF /* UIView+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
