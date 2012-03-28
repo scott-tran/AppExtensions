@@ -8,6 +8,7 @@
 
 @interface UIView (Util)
 
+- (void)removeAllSubviews;
 
 - (void)debugBorderWithColor:(UIColor *)color;
 

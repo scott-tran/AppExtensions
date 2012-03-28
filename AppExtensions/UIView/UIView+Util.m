@@ -9,6 +9,12 @@
 
 @implementation UIView (Util)
 
+- (void)removeAllSubviews {
+    for (UIView *subview in self.subviews) {
+        [subview removeFromSuperview];
+    }
+}
+
 - (void)debugBorderWithColor:(UIColor *)color {
     self.layer.borderColor = color.CGColor;
     self.layer.borderWidth = 1;
