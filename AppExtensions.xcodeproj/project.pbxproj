@@ -30,6 +30,8 @@
 		E4E0395214F5DBEF0094A84D /* UIColor+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A84C /* UIColor+Factory.h */; };
 		E4E0395214F5DBEF0094A850 /* NSJSONSerialization+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A84F /* NSJSONSerialization+Factory.m */; };
 		E4E0395214F5DBEF0094A852 /* NSJSONSerialization+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A851 /* NSJSONSerialization+Factory.h */; };
+		E4E0395214F5DBEF0094A855 /* UIGestureRecognizer+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A854 /* UIGestureRecognizer+Blocks.h */; };
+		E4E0395214F5DBEF0094A857 /* UIGestureRecognizer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A856 /* UIGestureRecognizer+Blocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		E4E0395214F5DBEF0094A84C /* UIColor+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Factory.h"; sourceTree = "<group>"; };
 		E4E0395214F5DBEF0094A84F /* NSJSONSerialization+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+Factory.m"; sourceTree = "<group>"; };
 		E4E0395214F5DBEF0094A851 /* NSJSONSerialization+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+Factory.h"; sourceTree = "<group>"; };
+		E4E0395214F5DBEF0094A854 /* UIGestureRecognizer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Blocks.h"; sourceTree = "<group>"; };
+		E4E0395214F5DBEF0094A856 /* UIGestureRecognizer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Blocks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 				E4E0395214F5DBEF0094A844 /* UIImage */,
 				E4E0395214F5DBEF0094A849 /* UIColor */,
 				E4E0395214F5DBEF0094A84E /* NSJSONSerialization */,
+				E4E0395214F5DBEF0094A853 /* UIGestureRecognizer */,
 			);
 			path = AppExtensions;
 			sourceTree = "<group>";
@@ -202,6 +207,15 @@
 			path = NSJSONSerialization;
 			sourceTree = "<group>";
 		};
+		E4E0395214F5DBEF0094A853 /* UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				E4E0395214F5DBEF0094A856 /* UIGestureRecognizer+Blocks.m */,
+				E4E0395214F5DBEF0094A854 /* UIGestureRecognizer+Blocks.h */,
+			);
+			path = UIGestureRecognizer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -220,6 +234,7 @@
 				E4E0395214F5DBEF0094A84D /* UIColor+Factory.h in Headers */,
 				E4ACE8D81508992400EB6FFF /* UIView+Util.h in Headers */,
 				E4E0395214F5DBEF0094A852 /* NSJSONSerialization+Factory.h in Headers */,
+				E4E0395214F5DBEF0094A855 /* UIGestureRecognizer+Blocks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +298,7 @@
 				E4E0395214F5DBEF0094A84B /* UIColor+Factory.m in Sources */,
 				E4ACE8D91508992400EB6FFF /* UIView+Util.m in Sources */,
 				E4E0395214F5DBEF0094A850 /* NSJSONSerialization+Factory.m in Sources */,
+				E4E0395214F5DBEF0094A857 /* UIGestureRecognizer+Blocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
