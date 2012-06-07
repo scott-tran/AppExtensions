@@ -2,6 +2,8 @@
 
 #import "NSArray+Functional.h"
 
+#import "NSArray+Util.h"
+
 #import "NSJSONSerialization+Factory.h"
 
 #import "NSNumber+Factory.h"
