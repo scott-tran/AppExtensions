@@ -36,6 +36,8 @@
 		E4E0395214F5DBEF0094A852 /* NSJSONSerialization+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A851 /* NSJSONSerialization+Factory.h */; };
 		E4E0395214F5DBEF0094A855 /* UIGestureRecognizer+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A854 /* UIGestureRecognizer+Blocks.h */; };
 		E4E0395214F5DBEF0094A857 /* UIGestureRecognizer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A856 /* UIGestureRecognizer+Blocks.m */; };
+		E4E0395214F5DBEF0094A859 /* NSArray+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A858 /* NSArray+Util.m */; };
+		E4E0395214F5DBEF0094A85B /* NSArray+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A85A /* NSArray+Util.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		E4E0395214F5DBEF0094A851 /* NSJSONSerialization+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+Factory.h"; sourceTree = "<group>"; };
 		E4E0395214F5DBEF0094A854 /* UIGestureRecognizer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Blocks.h"; sourceTree = "<group>"; };
 		E4E0395214F5DBEF0094A856 /* UIGestureRecognizer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Blocks.m"; sourceTree = "<group>"; };
+		E4E0395214F5DBEF0094A858 /* NSArray+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Util.m"; sourceTree = "<group>"; };
+		E4E0395214F5DBEF0094A85A /* NSArray+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Util.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		E43C53D414F8065B00A056C0 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
+				E4E0395214F5DBEF0094A85A /* NSArray+Util.h */,
+				E4E0395214F5DBEF0094A858 /* NSArray+Util.m */,
 				E43C53D614F8067D00A056C0 /* NSArray+Functional.h */,
 				E43C53D714F8067D00A056C0 /* NSArray+Functional.m */,
 			);
@@ -249,6 +255,7 @@
 				E4E0395214F5DBEF0094A855 /* UIGestureRecognizer+Blocks.h in Headers */,
 				E408CAC9157DA5BB0066CC5C /* UIImage+RoundedCorner.h in Headers */,
 				E408CACE157DA5C30066CC5C /* UIImage+Alpha.h in Headers */,
+				E4E0395214F5DBEF0094A85B /* NSArray+Util.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +322,7 @@
 				E4E0395214F5DBEF0094A857 /* UIGestureRecognizer+Blocks.m in Sources */,
 				E408CACA157DA5BB0066CC5C /* UIImage+RoundedCorner.m in Sources */,
 				E408CACF157DA5C30066CC5C /* UIImage+Alpha.m in Sources */,
+				E4E0395214F5DBEF0094A859 /* NSArray+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
