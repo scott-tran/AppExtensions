@@ -18,7 +18,7 @@
     }
 
     NSArray *result = [NSArray arrayWithArray:temp];
-    [temp release];]
+    [temp release];
     return result;
 }
 
