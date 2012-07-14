@@ -38,6 +38,8 @@
 		E4E0395214F5DBEF0094A857 /* UIGestureRecognizer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A856 /* UIGestureRecognizer+Blocks.m */; };
 		E4E0395214F5DBEF0094A859 /* NSArray+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A858 /* NSArray+Util.m */; };
 		E4E0395214F5DBEF0094A85B /* NSArray+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A85A /* NSArray+Util.h */; };
+		E4E0395214F5DBEF0094A85E /* UIAlertView+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A85D /* UIAlertView+Factory.m */; };
+		E4E0395214F5DBEF0094A860 /* UIAlertView+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E0395214F5DBEF0094A85F /* UIAlertView+Factory.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		E4E0395214F5DBEF0094A856 /* UIGestureRecognizer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Blocks.m"; sourceTree = "<group>"; };
 		E4E0395214F5DBEF0094A858 /* NSArray+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Util.m"; sourceTree = "<group>"; };
 		E4E0395214F5DBEF0094A85A /* NSArray+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Util.h"; sourceTree = "<group>"; };
+		E4E0395214F5DBEF0094A85D /* UIAlertView+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Factory.m"; sourceTree = "<group>"; };
+		E4E0395214F5DBEF0094A85F /* UIAlertView+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Factory.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,7 @@
 				E4E0395214F5DBEF0094A849 /* UIColor */,
 				E4E0395214F5DBEF0094A84E /* NSJSONSerialization */,
 				E4E0395214F5DBEF0094A853 /* UIGestureRecognizer */,
+				E4E0395214F5DBEF0094A85C /* UIAlertView */,
 			);
 			path = AppExtensions;
 			sourceTree = "<group>";
@@ -234,6 +239,15 @@
 			path = UIGestureRecognizer;
 			sourceTree = "<group>";
 		};
+		E4E0395214F5DBEF0094A85C /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				E4E0395214F5DBEF0094A85F /* UIAlertView+Factory.h */,
+				E4E0395214F5DBEF0094A85D /* UIAlertView+Factory.m */,
+			);
+			path = UIAlertView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -256,6 +270,7 @@
 				E408CAC9157DA5BB0066CC5C /* UIImage+RoundedCorner.h in Headers */,
 				E408CACE157DA5C30066CC5C /* UIImage+Alpha.h in Headers */,
 				E4E0395214F5DBEF0094A85B /* NSArray+Util.h in Headers */,
+				E4E0395214F5DBEF0094A860 /* UIAlertView+Factory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +338,7 @@
 				E408CACA157DA5BB0066CC5C /* UIImage+RoundedCorner.m in Sources */,
 				E408CACF157DA5C30066CC5C /* UIImage+Alpha.m in Sources */,
 				E4E0395214F5DBEF0094A859 /* NSArray+Util.m in Sources */,
+				E4E0395214F5DBEF0094A85E /* UIAlertView+Factory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
