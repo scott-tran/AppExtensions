@@ -18,6 +18,8 @@
 		E4ACE8D81508992400EB6FFF /* UIView+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = E4ACE8D61508992400EB6FFF /* UIView+Util.h */; };
 		E4ACE8D91508992400EB6FFF /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACE8D71508992400EB6FFF /* UIView+Util.m */; };
 		E4ACE8DC1508995700EB6FFF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ACE8DB1508995700EB6FFF /* QuartzCore.framework */; };
+		E4BBC2BA15C6278A000A09EE /* AEUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BBC2B815C6278A000A09EE /* AEUtil.h */; };
+		E4BBC2BB15C6278A000A09EE /* AEUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BBC2B915C6278A000A09EE /* AEUtil.m */; };
 		E4CFC70814F70C470077D135 /* NSNumber+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CFC70614F70C470077D135 /* NSNumber+Factory.h */; };
 		E4CFC70914F70C470077D135 /* NSNumber+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CFC70714F70C470077D135 /* NSNumber+Factory.m */; };
 		E4E0394314F5DB3A0094A836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E0394214F5DB3A0094A836 /* Foundation.framework */; };
@@ -54,6 +56,8 @@
 		E4ACE8D61508992400EB6FFF /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
 		E4ACE8D71508992400EB6FFF /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
 		E4ACE8DB1508995700EB6FFF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E4BBC2B815C6278A000A09EE /* AEUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEUtil.h; sourceTree = "<group>"; };
+		E4BBC2B915C6278A000A09EE /* AEUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEUtil.m; sourceTree = "<group>"; };
 		E4CFC70614F70C470077D135 /* NSNumber+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Factory.h"; sourceTree = "<group>"; };
 		E4CFC70714F70C470077D135 /* NSNumber+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Factory.m"; sourceTree = "<group>"; };
 		E4E0393F14F5DB3A0094A836 /* libAppExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +160,8 @@
 			children = (
 				E4E0395214F5DBEF0094A842 /* AppExtensions.h */,
 				E4E0395214F5DBEF0094A837 /* AETypes.h */,
+				E4BBC2B815C6278A000A09EE /* AEUtil.h */,
+				E4BBC2B915C6278A000A09EE /* AEUtil.m */,
 				E43C53D414F8065B00A056C0 /* NSArray */,
 				E4CFC70414F70C1E0077D135 /* NSNumber */,
 				E43C53DE14F80C9200A056C0 /* NSNumberFormatter */,
@@ -271,6 +277,7 @@
 				E408CACE157DA5C30066CC5C /* UIImage+Alpha.h in Headers */,
 				E4E0395214F5DBEF0094A85B /* NSArray+Util.h in Headers */,
 				E4E0395214F5DBEF0094A860 /* UIAlertView+Factory.h in Headers */,
+				E4BBC2BA15C6278A000A09EE /* AEUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +346,7 @@
 				E408CACF157DA5C30066CC5C /* UIImage+Alpha.m in Sources */,
 				E4E0395214F5DBEF0094A859 /* NSArray+Util.m in Sources */,
 				E4E0395214F5DBEF0094A85E /* UIAlertView+Factory.m in Sources */,
+				E4BBC2BB15C6278A000A09EE /* AEUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
