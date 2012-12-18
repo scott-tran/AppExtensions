@@ -17,9 +17,7 @@
         [temp exchangeObjectAtIndex:i - 1 withObjectAtIndex:j];
     }
 
-    NSArray *result = [NSArray arrayWithArray:temp];
-    [temp release];
-    return result;
+    return [NSArray arrayWithArray:temp];
 }
 
 @end

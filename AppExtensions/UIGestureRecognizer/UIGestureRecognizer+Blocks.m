@@ -28,7 +28,7 @@ static char UIGestureRecognizerBlockKey;
 }
 
 + (id)recognizerWithBlock:(AEBlock1)block {
-    return [[[[self class] alloc] initWithBlock:block] autorelease];
+    return [[[self class] alloc] initWithBlock:block];
 }
 
 @end

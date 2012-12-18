@@ -17,7 +17,7 @@
    otherButtonTitles:nil];
 
     [alert show];
-    return [alert autorelease];
+    return alert;
 }
 
 + (UIAlertView *)showWithError:(NSError *)error {
@@ -28,7 +28,7 @@
    otherButtonTitles:nil];
 
     [alert show];
-    return [alert autorelease];
+    return alert;
 }
 
 @end

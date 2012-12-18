@@ -398,7 +398,7 @@
 		E4E0394D14F5DB3A0094A836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				DSTROOT = /tmp/AppExtensions.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -412,7 +412,7 @@
 		E4E0394E14F5DB3A0094A836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				DSTROOT = /tmp/AppExtensions.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

@@ -24,7 +24,7 @@
 }
 
 + (UIColor *)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha {
-    return [[[UIColor alloc] initWithHexString:hexString alpha:alpha] autorelease];
+    return [[UIColor alloc] initWithHexString:hexString alpha:alpha];
 }
 
 + (UIColor *) randomColor{

@@ -16,15 +16,13 @@
 }
 
 - (id)fold:(id)initial with:(AEReturnBlock2)block {
-    __block id result = [initial retain];
+    __block id result = initial;
 
     [self enumerateObjectsUsingBlock:^(id value, NSUInteger index, BOOL *stop) {
-        id computed = block(result, value);
-        [result release];
-        result = [computed retain];
+        result = block(result, value);
     }];
 
-    return [result autorelease];
+    return result;
 }
 
 - (id)reduce:(AEReturnBlock2)block {
@@ -34,13 +32,11 @@
         if (index == 0) {
             result = value;
         } else {
-            id computed = block(result, value);
-            [result release];
-            result = [computed retain];
+            result = block(result, value);
         }
     }];
 
-    return [result autorelease];
+    return result;
 }
 
 - (NSArray *)map:(AEReturnBlock1)block {
