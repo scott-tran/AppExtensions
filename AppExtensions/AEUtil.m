@@ -18,5 +18,11 @@ BOOL AEStringIsEmpty(NSString *s) {
 	return s == nil || (id)s == (id)[NSNull null] || [s length] == 0;
 }
 
++ (NSString *)generateUUID {
+    CFUUIDRef uuidRef = CFUUIDCreate(NULL);
 
+    NSString *uuid = (__bridge_transfer NSString *)CFUUIDCreateString(NULL, uuidRef);
+
+    return uuid;
+}
 @end
