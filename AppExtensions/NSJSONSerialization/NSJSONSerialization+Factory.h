@@ -8,9 +8,17 @@
 
 @interface NSJSONSerialization (Factory)
 
++ (NSArray *)arrayWithString:(NSString *)json;
+
 + (NSArray *)arrayWithData:(NSData *)data;
 
++ (NSString *)jsonWithArray:(NSArray *)array;
+
++ (NSDictionary *)dictionaryWithString:(NSString *)json;
+
 + (NSDictionary *)dictionaryWithData:(NSData *)data;
+
++ (NSString *)jsonWithDictionary:(NSDictionary *)dictionary;
 
 
 @end
