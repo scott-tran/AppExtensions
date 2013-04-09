@@ -6,6 +6,8 @@
 
 #import "NSArray+Util.h"
 
+#import "NSData+Util.h"
+
 #import "NSJSONSerialization+Factory.h"
 
 #import "NSNumber+Factory.h"

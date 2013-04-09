@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68B0211B0F706DCBA4F51A80 /* NSData+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B02B7885A4041515FCCB39 /* NSData+Util.h */; };
+		68B027887872BC6EC4BA5BC3 /* NSData+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B02337D73FA7C5EE5F3237 /* NSData+Util.m */; };
 		E408CAC9157DA5BB0066CC5C /* UIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = E408CAC7157DA5BB0066CC5C /* UIImage+RoundedCorner.h */; };
 		E408CACA157DA5BB0066CC5C /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = E408CAC8157DA5BB0066CC5C /* UIImage+RoundedCorner.m */; };
 		E408CACE157DA5C30066CC5C /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = E408CACC157DA5C30066CC5C /* UIImage+Alpha.h */; };
@@ -45,6 +47,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68B02337D73FA7C5EE5F3237 /* NSData+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Util.m"; sourceTree = "<group>"; };
+		68B02B7885A4041515FCCB39 /* NSData+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Util.h"; sourceTree = "<group>"; };
 		E408CAC7157DA5BB0066CC5C /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
 		E408CAC8157DA5BB0066CC5C /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		E408CACC157DA5C30066CC5C /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
@@ -98,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68B02408A3B0DC8FCAB29951 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				68B02337D73FA7C5EE5F3237 /* NSData+Util.m */,
+				68B02B7885A4041515FCCB39 /* NSData+Util.h */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
 		E43C53D414F8065B00A056C0 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +185,7 @@
 				E4E0395214F5DBEF0094A84E /* NSJSONSerialization */,
 				E4E0395214F5DBEF0094A853 /* UIGestureRecognizer */,
 				E4E0395214F5DBEF0094A85C /* UIAlertView */,
+				68B02408A3B0DC8FCAB29951 /* NSData */,
 			);
 			path = AppExtensions;
 			sourceTree = "<group>";
@@ -278,6 +292,7 @@
 				E4E0395214F5DBEF0094A85B /* NSArray+Util.h in Headers */,
 				E4E0395214F5DBEF0094A860 /* UIAlertView+Factory.h in Headers */,
 				E4BBC2BA15C6278A000A09EE /* AEUtil.h in Headers */,
+				68B0211B0F706DCBA4F51A80 /* NSData+Util.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +362,7 @@
 				E4E0395214F5DBEF0094A859 /* NSArray+Util.m in Sources */,
 				E4E0395214F5DBEF0094A85E /* UIAlertView+Factory.m in Sources */,
 				E4BBC2BB15C6278A000A09EE /* AEUtil.m in Sources */,
+				68B027887872BC6EC4BA5BC3 /* NSData+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
